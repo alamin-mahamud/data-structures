@@ -33,7 +33,7 @@ func findPivot(a *[]int, low, high int) int {
 
 func BinarySearch(a *[]int, low, high, searchTerm int) int {
 
-	if high < low && high == low {
+	if high < low {
 		return -1
 	}
 
